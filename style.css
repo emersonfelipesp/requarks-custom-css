@@ -1,0 +1,39 @@
+.responsive-embed {
+  position: relative;
+  padding-bottom: 56.2%;
+  height: 0;
+  margin: 10px 0;
+  overflow: hidden
+}
+.responsive-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px
+}
+.v-application .primary {
+  background-color: #000!important;
+  border-color: #000!important
+}
+.v-main .contents a {
+  font-family: Verveine;
+  font-size: 150%;
+  color: #ffcd00
+}
+.v-main .contents h1,
+.v-main .contents h2,
+.v-main .contents h3,
+.v-main .contents h4,
+.v-main .contents h5 {
+  color: #261015;
+  font-family: Verveine
+}
+.v-main .contents h1:after,
+.v-main .contents h2:after,
+.v-main .contents h3:after,
+.v-main .contents h4:after,
+.v-main .contents h5:after {
+  background: 0 0
+}
